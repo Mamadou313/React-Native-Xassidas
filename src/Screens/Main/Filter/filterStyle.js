@@ -1,0 +1,104 @@
+import { StyleSheet, Dimensions, Platform } from 'react-native';
+import theme from '../../../Core/theme'
+const { colors,font} = theme;
+import Text_Size_Type from '../../../Components/Font'
+
+const styles= StyleSheet.create({
+    container:{
+        flex:1,
+    },
+    topCategory:{
+        flex:3,
+        marginHorizontal:'5%',
+        marginTop:'4%'
+    },
+    catoryText:{
+        fontFamily:font.bold,
+        fontSize:Text_Size_Type.Text_Type_6,
+        color:'black',
+    },
+    categoryList:{
+        marginVertical:'3%',
+        flexDirection:'row',
+        flexWrap:'wrap',
+    },
+    categoryView:{
+        margin:'1%',
+        paddingVertical:'2%',
+        paddingHorizontal:'5%',
+        borderRadius:Dimensions.get('window').width*0.08
+    },
+    categoryText:{
+        fontFamily:font.bold,
+        fontSize:Text_Size_Type.Text_Type_4,
+    },
+    downCategory:{
+        flex:2,
+        marginHorizontal:'5%',
+    },
+    colorContainer:{
+        flex:2,
+        marginHorizontal:'5%',
+        justifyContent:'center'
+    },
+    ColorView:{
+        flexDirection:'row',
+        flexWrap:'wrap',
+    },
+    circle:{
+        height:Platform.OS === 'ios'? Dimensions.get('window').height*0.045 : Dimensions.get('window').height*0.053,
+        width:Dimensions.get('window').width*0.1,
+        borderRadius:Dimensions.get('window').width*0.1,
+        marginHorizontal:'1%',
+        marginVertical:'2%',
+    },
+    priceContainer:{
+        flex:2,
+        marginHorizontal:'5%',
+    },
+    priceListContainer:{
+        flexDirection:'row',
+        flexWrap:'wrap',
+        justifyContent:'space-between',
+    },
+    priceListView:{
+        backgroundColor:'white',
+        borderRadius:Dimensions.get('window').width*0.04,
+        paddingHorizontal:'8%',
+        marginTop:'5%'
+    },
+    priceListText:{
+        fontSize:Text_Size_Type.Text_Type_4,
+        color:'black',
+        paddingVertical:'3%',
+        fontFamily:font.regular,
+    },
+    multiSliderView:{
+        alignItems:'center',
+    },
+    buttonContainer:{
+        flex:2,
+        justifyContent:'flex-end',
+        marginBottom:Platform.OS === 'ios'? '4%' : '2%'
+    },
+    buttonApply:{
+        alignItems:'center',
+        borderRadius:Dimensions.get('window').width*0.09,
+        paddingVertical:'3%',
+        marginHorizontal:'15%'
+    },
+    applyText:{
+        fontFamily:font.bold,
+        fontSize:Text_Size_Type.Text_Type_6,
+        color:'white'
+    },
+    buttonClear:{
+        marginVertical:'2%',
+        alignItems:'center',
+    },
+    clearText:{
+        fontFamily:font.bold,
+        fontSize:Text_Size_Type.Text_Type_4,
+    },
+})
+export default styles
