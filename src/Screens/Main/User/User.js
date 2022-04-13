@@ -11,13 +11,13 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import Context from '../../../Core/Context';
 
 const options=[
-    {id:0, text:'My orders', path:'Order', success:'1'},
+    {id:0, text:'Mes Onglets', path:'Order', success:'1'},
     {id:1, text:'Messages', path:'Messages', success:'1'},
-    {id:2, text:'Shipping Addressess', path:'ShippingAddress', success:'1'},
-    {id:3, text:'Payment Method', path:'PaymentMethod', success:'0'},
+    {id:2, text:'Adresse de livraison', path:'ShippingAddress', success:'1'},
+    {id:3, text:'Mode de paiement', path:'PaymentMethod', success:'0'},
     {id:4, text:'Coupons', path:'Coupon', success:'0'},
-    {id:5, text:'Wallets', path:'Wallet', success:'1'},
-    {id:6, text:'Settings', path:'Setting', success:'0'},
+    {id:5, text:'Portefeuilles', path:'Wallet', success:'1'},
+    {id:6, text:'Réglages', path:'Setting', success:'0'},
 ]
 const User = ({navigation}) => {
     const nav= navigation

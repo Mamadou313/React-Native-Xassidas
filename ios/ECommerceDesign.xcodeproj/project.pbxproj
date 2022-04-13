@@ -178,7 +178,6 @@
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				BADA072D011CE589ACB72FA0 /* [CP] Embed Pods Frameworks */,
 				60324A2F2058AE04BA704476 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -201,7 +200,6 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				4E35C179D60E43A7FFE3D60F /* [CP] Embed Pods Frameworks */,
 				1803A1D58FC1EC706B63B7AA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -303,23 +301,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ECommerceDesign/Pods-ECommerceDesign-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4E35C179D60E43A7FFE3D60F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ECommerceDesign/Pods-ECommerceDesign-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ECommerceDesign/Pods-ECommerceDesign-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ECommerceDesign/Pods-ECommerceDesign-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		5BDABD28566D45196FEC8CDF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -357,23 +338,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ECommerceDesign-ECommerceDesignTests/Pods-ECommerceDesign-ECommerceDesignTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BADA072D011CE589ACB72FA0 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ECommerceDesign-ECommerceDesignTests/Pods-ECommerceDesign-ECommerceDesignTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ECommerceDesign-ECommerceDesignTests/Pods-ECommerceDesign-ECommerceDesignTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ECommerceDesign-ECommerceDesignTests/Pods-ECommerceDesign-ECommerceDesignTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CBED7FF192A508EEBF7019D5 /* [CP] Check Pods Manifest.lock */ = {

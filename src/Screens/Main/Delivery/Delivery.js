@@ -8,10 +8,10 @@ import Header from '../../../Components/Header';
 import Context from '../../../Core/Context';
 
 const ItemList = [
-    { id:1, itemName: 'Irul Chair', itemPrice:'$102', book:1, Total:'102'},
-    { id:2, itemName: 'Irul Chair', itemPrice:'$102', book:1, Total:'102'},
-    { id:3, itemName: 'Irul Chai ', itemPrice:'$102', book:1, Total:'102'},
-    { id:4, itemName: 'Irul Chai ', itemPrice:'$102', book:1, Total:'102'},
+    { id:1, itemName: 'Ikfini', itemPrice:'€12', book:1, Total:'12'},
+    { id:2, itemName: 'Nourou Darayni', itemPrice:'€18', book:1, Total:'18'},
+    { id:3, itemName: 'Taysiroul Hanssir ', itemPrice:'€8', book:1, Total:'8'},
+    { id:4, itemName: 'Dialibatou Maraxibi', itemPrice:'€12', book:1, Total:'12'},
 ]
 const SelectionField = ({name, color, backgroundColor}) => {
     return(

@@ -8,13 +8,13 @@ import IconComponent from '../../../Components/Icon';
 import Context from '../../../Core/Context';
 
 const OrderDelivery = [
-    {id:'09678', startDate:'25 December, 2021', endDate:'31 December, 2021', nameUser:'Samento', addressUser:'New York'},
+    {id:'09678', startDate:'25 December, 2021', endDate:'31 December, 2021', nameUser:'Mamadou', addressUser:'France'},
 ]
 const orderList = [
-    { id:0, orderId:'09678', itemName: 'Irul Chair', itemPrice:'$102', book:1, Total:'102'},
-    { id:1, orderId:'09678', itemName: 'Irul Chair', itemPrice:'$102', book:1, Total:'102'},
-    { id:2, orderId:'09678', itemName: 'Irul Chai ', itemPrice:'$102', book:1, Total:'102'},
-    { id:3, orderId:'09678', itemName: 'Irul Chai ', itemPrice:'$102', book:1, Total:'102'},
+    { id:0, orderId:'09678', itemName: 'Ikfini', itemPrice:'€12', book:1, Total:'12'},
+    { id:1, orderId:'09678', itemName: 'Nourou Darayni', itemPrice:'€18', book:1, Total:'18'},
+    { id:2, orderId:'09678', itemName: 'Taysiroul Hanssir ', itemPrice:'€8', book:1, Total:'8'},
+    { id:3, orderId:'09678', itemName: 'Dialibatou Maraxibi', itemPrice:'€12', book:1, Total:'12'},
 ]
 const orderTrack =[
     {id:0, startProgress:true, dispatch:true, ontheway:false, finishProgress:false}

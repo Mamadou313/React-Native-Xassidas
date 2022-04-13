@@ -11,17 +11,17 @@ import IconComponent from '../../../Components/Icon';
 import Context from '../../../Core/Context';
 
 const MenuList = [
-    { id: 0, name: 'All' },
-    { id: 1, name: 'Health & Beauty' },
-    { id: 2, name: 'Home & LifeStyle' },
-    { id: 3, name: 'Women ' },
+    { id: 0, name: 'Tous' },
+    { id: 1, name: 'Al Quran' },
+    { id: 2, name: 'Xassidas' },
+    { id: 3, name: 'Magalu Xassida ' },
 ]
 let ItemList = [
-    { id: 0, itemName: 'Irul Chair', companyName: 'Seto', detail: 'Ergonomical for humans body curve', Price: '$102.00', rating: 3.5 },
-    { id: 1, itemName: 'Irul', companyName: 'Seto', detail: 'Ergonomical for humans body curve', Price: '$102.00', rating: 4.0 },
-    { id: 2, itemName: 'Chair', companyName: 'Seto', detail: 'Ergonomical for humans body curve', Price: '$102.00', rating: 5.0 },
-    { id: 3, itemName: 'Home ', companyName: 'Seto', detail: 'Ergonomical for humans body curve', Price: '$102.00', rating: 5.0 },
-    { id: 4, itemName: 'Women ', companyName: 'Seto', detail: 'Ergonomical for humans body curve', Price: '$102.00', rating: 5.0 },
+    { id: 0, itemName: 'Ikfini', companyName: 'Dialibatou Paris', detail: 'Caligraphie Serigne Hamzatou Mbacké', Price: '€12.00', rating: 3.5 },
+    { id: 1, itemName: 'Nourou Darayni', companyName: 'Dialibatou Paris', detail: 'Caligraphie Aasna Khadim', Price: '€18.00', rating: 4.0 },
+    { id: 2, itemName: 'Taysiroul Hanssir', companyName: 'Dialibatou Paris', detail: 'Caligraphie Editions Minanes', Price: '€8.00', rating: 5.0 },
+    { id: 3, itemName: 'Dialibatou Maraxibi', companyName: 'Dialibatou Paris', detail: 'Caligraphie Serigne Khadim Thiam', Price: '€12.00', rating: 5.0 },
+    { id: 4, itemName: 'Mafatihul Bichri', companyName: 'Dialibatou Paris', detail: 'Caligrahie Ndiaye Xassida', Price: '€10.00', rating: 5.0 },
 ]
 const Home = (props) => {
     const nav = props.navigation
@@ -73,7 +73,7 @@ const Home = (props) => {
     const renderItem = ({ item }) =>( <HomeCard item={item} /> );
     return (
         <View style={{...styles.container, backgroundColor: themeColor.theme === colors.orangetheme? 'transparent':colors.blueBackgroundColor}}>
-            <Header title='Home' nav={nav} Screen='SignIn' />
+            <Header title='Accueil' nav={nav} Screen='SignIn' />
             <View style={styles.SearchContainer}>
                 <View style={styles.searchb}><SearchBar /></View>
                 <View style={styles.filterContainer}>

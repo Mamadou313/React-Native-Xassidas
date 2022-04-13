@@ -10,10 +10,10 @@ import Context from '../../../Core/Context';
 import Swipeable from 'react-native-swipeable';
 
 const ItemList = [
-    { id:1, itemName: 'Irul Chair', companyName:'by Seto', Price:'$102', number:2, outOfStock:false},
-    { id:2, itemName: 'Irul', companyName:'by Seto', Price:'$102', number:2, outOfStock:false},
-    { id:3, itemName: 'Chai ', companyName:'by Seto', Price:'$102', number:2, outOfStock:false},
-    { id:4, itemName: 'Irul Chai ', companyName:'by Seto', Price:'$102', number:2, outOfStock:true},
+    { id:1, itemName: 'Ikfini', companyName:'Par Dialibatou Paris', Price:'€12', number:2, outOfStock:false},
+    { id:2, itemName: 'Nourou Darayni', companyName:'Par Dialibatou Paris', Price:'€18', number:2, outOfStock:false},
+    { id:3, itemName: 'Taysiroul Hanssir', companyName:'Par Dialibatou Paris', Price:'€8', number:2, outOfStock:false},
+    { id:4, itemName: 'Dialibatou Maraxibi ', companyName:'Par Dialibatou Paris', Price:'€12', number:2, outOfStock:true},
     // { id:5, itemName: 'Irul Chair', companyName:'by Seto', Price:'$102', number:2, flag:true},
     // { id:6, itemName: 'Irul Chair', companyName:'by Seto', Price:'$102', number:2, flag:true},
     // { id:7, itemName: 'Irul Chai ', companyName:'by Seto', Price:'$102', number:2, flag:true},
@@ -21,10 +21,10 @@ const ItemList = [
 
 ]
 const WhishList = [
-    { id:1, itemName: 'Irul Chair', companyName:'by Seto', Price:'$102', number:2},
-    { id:2, itemName: 'Irul Chair', companyName:'by Seto', Price:'$102', number:2},
-    { id:3, itemName: 'Irul Chai ', companyName:'by Seto', Price:'$102', number:2},
-    { id:4, itemName: 'Irul Chai ', companyName:'by Seto', Price:'$102', number:2},
+    { id:1, itemName: 'Ikfini', companyName:'Par Dialibatou Paris', Price:'€12', number:2},
+    { id:2, itemName: 'Nourou Darayni', companyName:'Par Dialibatou Paris', Price:'€18', number:2},
+    { id:3, itemName: 'Taysiroul Hanssir', companyName:'Par Dialibatou Paris', Price:'€8', number:2},
+    { id:4, itemName: 'Dialibatou Maraxibi ', companyName:'Par Dialibatou Paris', Price:'€12', number:2},
     
 ]
 const Favourite = (props) => {

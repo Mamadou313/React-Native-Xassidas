@@ -8,12 +8,12 @@ import Header from '../../../Components/Header';
 import Context from '../../../Core/Context';
 
 const NotificationData=[
-    {id:0, title:'Your favorite wishlist item is running out of stock', detail:'Mini Invisible Ultra Bluetooth Mini Bluetooth Wireless Stereo Headset/Earphone/Handsfree/Headphone With Mic@1X.png'},
-    {id:1, title:'Your favorite wishlist item is running out of stock', detail:'Mini Invisible Ultra Bluetooth Mini Bluetooth Wireless Stereo Headset/Earphone/Handsfree/Headphone With Mic@1X.png'},
-    {id:2, title:'Your favorite wishlist item is running out of stock', detail:'Mini Invisible Ultra Bluetooth Mini Bluetooth Wireless Stereo Headset/Earphone/Handsfree/Headphone With Mic@1X.png'},
-    {id:3, title:'Your favorite wishlist item is running out of stock', detail:'Mini Invisible Ultra Bluetooth Mini Bluetooth Wireless Stereo Headset/Earphone/Handsfree/Headphone With Mic@1X.png'},
-    {id:4, title:'Your favorite wishlist item is running out of stock', detail:'Mini Invisible Ultra Bluetooth Mini Bluetooth Wireless Stereo Headset/Earphone/Handsfree/Headphone With Mic@1X.png'},
-    {id:5, title:'Your favorite wishlist item is running out of stock', detail:'Mini Invisible Ultra Bluetooth Mini Bluetooth Wireless Stereo Headset/Earphone/Handsfree/Headphone With Mic@1X.png'},
+    {id:0, title:'Votre article préféré de la liste de souhaits est en rupture de stock', detail:'Mini Invisible Ultra Bluetooth Mini Bluetooth Wireless Stereo Headset/Earphone/Handsfree/Headphone With Mic@1X.png'},
+    {id:1, title:'Votre article préféré de la liste de souhaits est en rupture de stock', detail:'Mini Invisible Ultra Bluetooth Mini Bluetooth Wireless Stereo Headset/Earphone/Handsfree/Headphone With Mic@1X.png'},
+    {id:2, title:'Votre article préféré de la liste de souhaits est en rupture de stock', detail:'Mini Invisible Ultra Bluetooth Mini Bluetooth Wireless Stereo Headset/Earphone/Handsfree/Headphone With Mic@1X.png'},
+    {id:3, title:'Votre article préféré de la liste de souhaits est en rupture de stock', detail:'Mini Invisible Ultra Bluetooth Mini Bluetooth Wireless Stereo Headset/Earphone/Handsfree/Headphone With Mic@1X.png'},
+    {id:4, title:'Votre article préféré de la liste de souhaits est en rupture de stock', detail:'Mini Invisible Ultra Bluetooth Mini Bluetooth Wireless Stereo Headset/Earphone/Handsfree/Headphone With Mic@1X.png'},
+    {id:5, title:'Votre article préféré de la liste de souhaits est en rupture de stockk', detail:'Mini Invisible Ultra Bluetooth Mini Bluetooth Wireless Stereo Headset/Earphone/Handsfree/Headphone With Mic@1X.png'},
 ]
 
 const Notification = (props) => {

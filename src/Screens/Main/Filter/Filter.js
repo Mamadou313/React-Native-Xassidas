@@ -8,22 +8,20 @@ import Header from '../../../Components/Header';
 import Context from '../../../Core/Context';
 
 const filterbyName=[
-    {id:0, name:'Furniture'},
-    {id:1, name:'Electronics'},
-    {id:2, name:'Clothes'},
-    {id:3, name:'Appliances'},
-    {id:4, name:'Gym & Sports'},
-    {id:5, name:'Food'},
-    {id:6, name:'Kids'},
-    {id:7, name:'Cosmetic'},
-    {id:8, name:'Health & Fitness'},
+    {id:0, name:'Xassidas'},
+    {id:1, name:'Editions'},
+    {id:2, name:'Al Quran'},
+    {id:3, name:'Caligraphie'},
+    {id:4, name:'Juz'},
+    {id:5, name:'Drous'},
+    
 ]
 const filterbyPrice=[
-    {id:0, name:'Price (Low to High)'},
-    {id:1, name:'Price (High to Low)'},
-    {id:2, name:'Best Selling'},
-    {id:3, name:'A to Z'},
-    {id:4, name:'Z to A'},
+    {id:0, name:'Prix (Bas en Haut)'},
+    {id:1, name:'Prix (Haut en Bas)'},
+    {id:2, name:'Meilleur Ventes'},
+    {id:3, name:'A à Z'},
+    {id:4, name:'Z à A'},
 ]
 const PriceCard = ({color, values,onValuesChange, multiSliderValue}) =>{
     return(

@@ -8,13 +8,13 @@ import Header from '../../../Components/Header';
 import Context from '../../../Core/Context';
 
 const order=[
-    {id:0, orderId:'98765032', address:'32512 pearl street, California, United State.', phone:'969-62-5512', paymentMethod:'Cash On Delivery', subTotal:'$1000.00', shipping:'$225',}
+    {id:0, orderId:'98765032', address:'15 RUE GENIN 93200 SAINT DENIS.', phone:'618-32-4450', paymentMethod:'Paiement à la Livraison', subTotal:'€120.00', shipping:'€12',}
 ]
 const ItemList = [
-    { id:1, itemName: 'Irul Chair', itemPrice:'$102', book:1, Total:'102'},
-    { id:2, itemName: 'Irul Chair', itemPrice:'$102', book:1, Total:'102'},
-    { id:3, itemName: 'Irul Chai ', itemPrice:'$102', book:1, Total:'102'},
-    { id:4, itemName: 'Irul Chai ', itemPrice:'$102', book:1, Total:'102'},
+    { id:1, itemName: 'Ikfini', itemPrice:'€12', book:1, Total:'12'},
+    { id:2, itemName: 'Nourou Darayni', itemPrice:'€18', book:1, Total:'18'},
+    { id:3, itemName: 'Taysiroul Hanssir ', itemPrice:'€8', book:1, Total:'8'},
+    { id:4, itemName: 'Dialibatou Maraxibi ', itemPrice:'€12', book:1, Total:'12'},
 ]
 
 const Delivery = (props) => {

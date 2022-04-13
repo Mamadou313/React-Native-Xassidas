@@ -47,34 +47,34 @@ const SignUp = (props) => {
     };
     const SignUp = () =>{
         if(name == ''){
-            let text = "Please Provide Your Name!"
+            let text = "Veuillez fournir votre nom!"
             alertToggleModal(text)
         }else if(name.length < 3 ){
-            let text = "Please Provide Valid Name"
+            let text = "Veuillez fournir un nom valide"
             alertToggleModal(text)
         }else if(phone == '' ){
-            let text = "Please Provide Your Phone Number!"
+            let text = "Veuillez fournir votre numéro de téléphone!"
             alertToggleModal(text)
         }else if(phone.length !== 11 ){
-            let text = "Please Provide Valid Phone Number"
+            let text = "Veuillez fournir un numéro de téléphone valide"
             alertToggleModal(text)
         }else if(email == ''){
-            let text = "Please Provide Your Email!"
+            let text = "Veuillez fournir votre e-mail !"
             alertToggleModal(text)
         }else if(!emailValidation(email.trim())){
-            let text = "Invalid Email Forrmat"
+            let text = "Format d'e-mail invalide"
             alertToggleModal(text)
         }else if(password === "") {
-            let text = "Please Enter Your Password!"
+            let text = "S'il vous plait entrez votre mot de passe!"
             alertToggleModal(text)
         }else if(!passwordValidation(password)) {
-            let text = "Password should have at least 8 characters,1 uppercase, 1 number and 1 symbol"
+            let text = "Le mot de passe doit contenir au moins 8 caractères, 1 majuscule, 1 chiffre et 1 symbole"
             alertToggleModal(text)
         }else if(conPassword === "") {
-            let text = "Please Rewrite Your Password!"
+            let text = "Veuillez réécrire votre mot de passe !"
             alertToggleModal(text)
         }else if(!passwordMatch(conPassword)) {
-            let text = "Password Doesn't Matched"
+            let text = "Le mot de passe ne correspond pas"
             alertToggleModal(text)
         }else if (!isChecked) {
             let text = "Please check the term of services!"

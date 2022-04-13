@@ -12,10 +12,10 @@ import Context from '../../../Core/Context';
 
 const empty = false
 const CartList = [
-    { id:0, itemName: 'Irul Chair', companyName:'by Seto', Price:'$102', number:1},
-    { id:1, itemName: 'Irul Chair', companyName:'by Seto', Price:'$102', number:1},
-    { id:2, itemName: 'Irul Chai ', companyName:'by Seto', Price:'$102', number:1},
-    { id:3, itemName: 'Irul Chai ', companyName:'by Seto', Price:'$102', number:1},
+    { id:0, itemName: 'Ikfini', companyName:'Par DXP', Price:'€12.00', number:1},
+    { id:1, itemName: 'Nourou Darayni', companyName:'Par DXP', Price:'€18.00', number:1},
+    { id:2, itemName: 'Taysiroul Hanssir ', companyName:'Par DXP', Price:'€8.00', number:1},
+    { id:3, itemName: 'Dialibatou Maraxibi ', companyName:'Par DXP', Price:'€12.00', number:1},
 ]
 const Cart = (props) => {
     const themeColor = useContext(Context)

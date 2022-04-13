@@ -8,19 +8,19 @@ import Header from '../../../Components/Header';
 import Context from '../../../Core/Context';
 
 const card=[
-    {id:0, name:'John Doe', amount:'640000'}
+    {id:0, name:'NDIAYE MAMADOU', amount:'640000'}
 ]
 const cardDetail=[
-    {id:0, day:'Tuesday', date:'10- June,2021', name:'IOrem Ipsum', amount:'1800', debit:true ,credit:false},
-    {id:1, day:'Tuesday', date:'9- June,2021', name:'IOrem Ipsum', amount:'1800', debit:true ,credit:false},
-    {id:2, day:'Tuesday', date:'10- September,2021', name:'IOrem Ipsum', amount:'1800', debit:false ,credit:true},
-    {id:3, day:'Tuesday', date:'9- September,2021', name:'IOrem Ipsum', amount:'1800', debit:true ,credit:false},
-    {id:4, day:'Tuesday', date:'10 October,2021', name:'IOrem Ipsum', amount:'1800', debit:true ,credit:false},
-    {id:5, day:'Tuesday', date:'10 December,2021', name:'IOrem Ipsum', amount:'1800', debit:false ,credit:true},
-    {id:6, day:'Tuesday', date:'10 December,2021', name:'IOrem Ipsum', amount:'1800', debit:true ,credit:false},
-    {id:7, day:'Tuesday', date:'29 December,2021', name:'IOrem Ipsum', amount:'1800', debit:true ,credit:false},
-    {id:8, day:'Tuesday', date:'1 Jauary,2021', name:'IOrem Ipsum', amount:'1800', debit:true ,credit:false},
-    {id:9, day:'Monday', date:'3 January,2022', name:'IOrem Ipsum', amount:'1800', debit:true ,credit:false},
+    {id:0, day:'Mardi', date:'10- Avril,2022', name:'NDIAYE MAMADOU', amount:'1800', debit:true ,credit:false},
+    {id:1, day:'Mardi', date:'9- Juin,2021', name:'NDIAYE MAMADOU', amount:'1800', debit:true ,credit:false},
+    {id:2, day:'Mardi', date:'10- Septembre,2021', name:'NDIAYE MAMADOU', amount:'1800', debit:false ,credit:true},
+    {id:3, day:'Mardi', date:'9- Septembre,2021', name:'NDIAYE MAMADOU', amount:'1800', debit:true ,credit:false},
+    {id:4, day:'Mardi', date:'10 Octobre,2021', name:'NDIAYE MAMADOU', amount:'1800', debit:true ,credit:false},
+    {id:5, day:'Mardi', date:'10 Decembre,2021', name:'NDIAYE MAMADOU', amount:'1800', debit:false ,credit:true},
+    {id:6, day:'Mardi', date:'10 Decembre,2021', name:'NDIAYE MAMADOU', amount:'1800', debit:true ,credit:false},
+    {id:7, day:'Mardi', date:'29 Decembre,2021', name:'NDIAYE MAMADOU', amount:'1800', debit:true ,credit:false},
+    {id:8, day:'Mardi', date:'1 Janvier,2021', name:'NDIAYE MAMADOU', amount:'1800', debit:true ,credit:false},
+    {id:9, day:'Lundi', date:'3 Janvier,2022', name:'NDIAYE MAMADOU', amount:'1800', debit:true ,credit:false},
 ]
 
 const Wallet = (props) => {

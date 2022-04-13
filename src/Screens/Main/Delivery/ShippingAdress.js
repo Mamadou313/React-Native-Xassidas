@@ -9,8 +9,8 @@ import Header from '../../../Components/Header';
 import Context from '../../../Core/Context';
 
 const AdressList = [
-    { id:0, userName: 'John Doe', Adress:'Long Street - 67-2 Essentially - Rando St. - 12 - Albany,New York ', Phone:'03648976543'},
-    { id:1, userName: 'John Doe', Adress:'Long Street - 67-2 Essentially - Rando St. - 12 - Albany,New York ', Phone:'03648976543'},
+    { id:0, userName: 'NDIAYE MAMADOU', Adress:'15 RUE GENIN LOGEMENT 124 - 93200 SAINT DENIS, France ', Phone:'06184432504'},
+    { id:1, userName: 'NDIAYE MAMADOU', Adress:'15 RUE GENIN LOGEMENT 124 - 93200 SAINT DENIS, France ', Phone:'06184432504'},
 ]
 const ShippingAdress = ({route, navigation}) => {
     const {addr} = route.params

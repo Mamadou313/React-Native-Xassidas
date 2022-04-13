@@ -10,7 +10,7 @@ const SearchBar = () => {
     const onChangeSearch = query => setSearchQuery(query);
       return (
       <Searchbar
-        placeholder="Search"
+        placeholder="Recherche"
         onChangeText={onChangeSearch}
         value={searchQuery}
         inputStyle={styles.searchText}

@@ -168,7 +168,7 @@ function MyTabs() {
           ),
         }}
       />
-       <Tab.Screen name="Cart" component={Cart} 
+       <Tab.Screen name="Panier" component={Cart} 
         options={{
           tabBarIcon: () => (
             <BagImage />

@@ -10,11 +10,11 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import Context from '../../../Core/Context';
 
 const ReviewsList=[
-    {id:0, name:'John Doe', Time:'2 hours ago', rating:'5.0', review:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.'},
-    {id:1, name:'John Doe', Time:'2 hours ago', rating:'4.0', review:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.'},
-    {id:2, name:'John Doe', Time:'2 hours ago', rating:'0', review:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.'},
-    {id:3, name:'John Doe', Time:'2 hours ago', rating:'3.0', review:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.'},
-    {id:4, name:'John Doe', Time:'2 hours ago', rating:'5.0', review:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.'},
+    {id:0, name:'NDIAYE MAMADOU', Time:'2 hours ago', rating:'5.0', review:'.'},
+    {id:1, name:'NDIAYE', Time:'2 hours ago', rating:'4.0', review:'.'},
+    {id:2, name:'MAMADOU', Time:'2 hours ago', rating:'0', review:'.'},
+    {id:3, name:'SENGHOR', Time:'2 hours ago', rating:'3.0', review:'.'},
+    {id:4, name:'KHABANE', Time:'2 hours ago', rating:'5.0', review:'.'},
     
 ]
 

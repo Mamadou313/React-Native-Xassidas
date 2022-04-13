@@ -7,7 +7,7 @@ import Header from '../../../Components/Header';
 import Context from '../../../Core/Context';
 
 const order=[
-    {id:0, orderId:'98765032', address:'32512 pearl street, California, United State.', phone:'969-62-5512', paymentMethod:'Cash On Delivery', subTotal:'$1000.00', shipping:'$225',}
+    {id:0, orderId:'98765032', address:'15 RUE GENIN LOG 124 93200 SAINT DENIS', paymentMethod:'Cash On Delivery', subTotal:'$1000.00', shipping:'$225',}
 ]
 const ConfirmOrder = (props) => {
     const themeColor = useContext(Context)

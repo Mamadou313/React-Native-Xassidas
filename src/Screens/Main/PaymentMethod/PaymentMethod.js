@@ -8,8 +8,8 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 import Context from '../../../Core/Context';
 
 const card=[
-    {id:0, cardType:'Visa', name:'Valentino Morose', date:'04/24', cardNo:'1234 **** **** 5678', color:'#FFD6CD'},
-    {id:1, cardType:'card', name:'Jake Weary', date:'10/26', cardNo:'3456 **** **** 1234', color:'#DADADA'}
+    {id:0, cardType:'Visa', name:'NDIAYE MAMADOU', date:'04/24', cardNo:'1234 **** **** 5678', color:'#FFD6CD'},
+    {id:1, cardType:'card', name:'NDIAYE MAMADOU', date:'10/26', cardNo:'3456 **** **** 1234', color:'#DADADA'}
 
 ]
 

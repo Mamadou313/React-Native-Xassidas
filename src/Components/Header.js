@@ -9,18 +9,18 @@ const Header = ({title, nav}) => {
     const themeColor = useContext(Context)
     return (
         <View style={{...styles.Container, backgroundColor:themeColor.theme}}>
-            {title === 'Home'?<View style={{marginHorizontal:Platform.OS === 'ios'?'4%':'4%'}}></View> :
-            title === 'My Profile'?<View style={{marginHorizontal:Platform.OS === 'ios'?'3%':'4%'}}></View> :
+            {title === 'Acceuil'?<View style={{marginHorizontal:Platform.OS === 'ios'?'4%':'4%'}}></View> :
+            title === 'Mon Profil'?<View style={{marginHorizontal:Platform.OS === 'ios'?'3%':'4%'}}></View> :
             title === 'Edit Profile'?<View style={{marginHorizontal:Platform.OS === 'ios'?'3%':'4%'}}></View> :
             <TouchableOpacity onPress={() => nav.goBack()}>
                 <Image source={images.backIcon} style={styles.icon}/>
             </TouchableOpacity>
             }
-            { title === 'Shipping Address'?
+            { title === 'Addresse Livraison'?
                 <Text style={{...styles.titleText, marginLeft:'27%' }}>
                     {title}
                 </Text>    
-                :title === 'Payment Method'?
+                :title === 'Methode de Paiement'?
                 <Text style={{...styles.titleText, marginLeft:'27%' }}>
                     {title}
                 </Text>    
